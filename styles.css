@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(78, 78, 78);
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+.insideDivs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+    border-bottom: black 1px solid;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    display: block;
+    color: #A58A7C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    a:hover{
+      color: rgb(0, 0, 0);
+    }
