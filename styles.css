@@ -40,7 +40,7 @@ body {
 
 .largeLogo{
     position: absolute;
-    transform: translateY(34vh);
+    transform: translateY(10vh);
     -ms-transform: translateY(10vh);
     -webkit-transform: translateY(10vh);
     margin-bottom: 10px;
