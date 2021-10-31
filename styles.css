@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(46, 46, 46);
-    background-image: url('https://images.unsplash.com/photo-1582319181538-37046959cc32?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80');
+    background-image: url('https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1776&q=80');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -68,7 +68,7 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     display: block;
-    color: #A58A7C;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
