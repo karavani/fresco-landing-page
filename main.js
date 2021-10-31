@@ -12,5 +12,10 @@
         el.src = images[i].url;           // set the image
         i = (i + 1) % images.length;  // update the counter
     }
-    setInterval(toggle, 2000);
+       
+        setInterval(toggle, 2000);
+
+    
 })();  
+
+// animation: fadeInAnimation ease 3s;

@@ -2,9 +2,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(46, 46, 46);
+    background-image: url('https://images.unsplash.com/photo-1594565295818-2e042ddaf6e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
-
 .div1{
     display: flex;
     justify-content: center;
@@ -36,11 +39,11 @@ body {
     height: 26vh;
     border-radius: 100%;
     border: 2px solid #A58A7C;
+    transition: opacity 1s;
 }
 
 .largeLogo{
-    animation: fadeInAnimation ease 3s;
-    position: absolute;
+    position: block;
     -ms-transform: translateY(70%);
     -webkit-transform: translateY(70%);
     -moz-transform: translateY(70%);
@@ -88,3 +91,4 @@ a {
             opacity: 1;
          }
     }
+    
