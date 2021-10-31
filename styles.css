@@ -40,9 +40,12 @@ body {
 
 .largeLogo{
     position: fixed;
-    -ms-transform: translateY(10vh);
-    -webkit-transform: translateY(10vh);
-    transform: translateY(10vh);
+    -ms-transform: translateY(70%);
+    -webkit-transform: translateY(70%);
+    -moz-transform: translateY(70%);
+    -o-transform: translateY(70%);
+    transform: translateY(70%);
+    
     margin-bottom: 10px;
     border-radius: 100%;
     width: 16vh;
