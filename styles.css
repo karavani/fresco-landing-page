@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(46, 46, 46);
-    background-image: url('https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1776&q=80');
+    background-image: url('https://res.cloudinary.com/fresco/image/upload/v1635687932/%D7%9C%D7%9C%D7%90_%D7%A9%D7%9D_1920_x_1080_px_1920_x_1080_px_yd99c5.png');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -35,8 +35,8 @@ body {
     align-items: center;
 }
 .gallery{
-    width: 36vh;
-    height: 26vh;
+    width: 46vh;
+    height: 36vh;
     border-radius: 100%;
     border: 2px solid #A58A7C;
     transition: opacity 1s;
@@ -44,11 +44,11 @@ body {
 
 .largeLogo{
     position: block;
-    -ms-transform: translateY(70%);
-    -webkit-transform: translateY(70%);
-    -moz-transform: translateY(70%);
-    -o-transform: translateY(70%);
-    transform: translateY(70%);
+    -ms-transform: translateY(280%);
+    -webkit-transform: translateY(280%);
+    -moz-transform: translateY(280%);
+    -o-transform: translateY(280%);
+    transform: translateY(280%);
     
     margin-bottom: 10px;
     border-radius: 100%;
@@ -68,14 +68,14 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     display: block;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     }
     
     a:hover{
-      color: rgb(201, 179, 83);
+      color: rgb(117, 211, 104);
     }
 
     .smallLogo{
