@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(46, 46, 46);
-    background-image: url('https://res.cloudinary.com/fresco/image/upload/v1635688980/bgfresco_flnlr0.png');
+    background-image: url('https://res.cloudinary.com/fresco/image/upload/v1635693311/%D7%9D%D7%9F%D7%95%D7%92_f0roqi.png');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -23,6 +23,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    text-align: center;
     padding: 10px;
     width: 100%;
     margin: 10px;
