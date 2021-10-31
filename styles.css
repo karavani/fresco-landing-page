@@ -44,11 +44,11 @@ body {
 
 .largeLogo{
     position: block;
-    -ms-transform: translateY(280%);
-    -webkit-transform: translateY(280%);
-    -moz-transform: translateY(280%);
-    -o-transform: translateY(280%);
-    transform: translateY(280%);
+    -ms-transform: translateY(-430%);
+    -webkit-transform: translateY(-430%);
+    -moz-transform: translateY(-430%);
+    -o-transform: translateY(-430%);
+    transform: translateY(-430%);
     
     margin-bottom: 10px;
     border-radius: 100%;
