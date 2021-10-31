@@ -49,8 +49,6 @@ body {
     -moz-transform: translateY(-430%);
     -o-transform: translateY(-430%);
     transform: translateY(-430%);
-    
-    margin-bottom: 10px;
     border-radius: 100%;
     width: 16vh;
     height: auto;
