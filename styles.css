@@ -39,7 +39,7 @@ body {
 }
 
 .largeLogo{
-    transform: translateY(320px);
+    transform: translateY(34vh);
     margin-bottom: 10px;
     border-radius: 100%;
     width: 16vh;
