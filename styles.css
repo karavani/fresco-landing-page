@@ -45,11 +45,11 @@ body {
 
 .largeLogo{
     position: block;
-    -ms-transform: translateY(-330%);
-    -webkit-transform: translateY(-330%);
-    -moz-transform: translateY(-330%);
-    -o-transform: translateY(-330%);
-    transform: translateY(-330%);
+    -ms-transform: translateY(-10vh);
+    -webkit-transform: translateY(-10vh);
+    -moz-transform: translateY(-10vh);
+    -o-transform: translateY(-10vh);
+    transform: translateY(-10vh);
     border-radius: 100%;
     width: 16vh;
     height: auto;
@@ -91,3 +91,53 @@ a {
          }
     }
     
+
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (min-height: 568px) {
+    .largeLogo{
+        -ms-transform: translateY(-65vh);
+        -webkit-transform: translateY(-65vh);
+        -moz-transform: translateY(-65vh);
+        -o-transform: translateY(-65vh);
+        transform: translateY(-65vh);
+    }
+  }
+  @media screen and (min-height: 640px) {
+    .largeLogo{
+        -ms-transform: translateY(-60vh);
+        -webkit-transform: translateY(-60vh);
+        -moz-transform: translateY(-60vh);
+        -o-transform: translateY(-60vh);
+        transform: translateY(-60vh);
+    }
+  }
+  @media screen and (min-height: 667px) {
+    .largeLogo{
+        -ms-transform: translateY(-57vh);
+        -webkit-transform: translateY(-57vh);
+        -moz-transform: translateY(-57vh);
+        -o-transform: translateY(-57vh);
+        transform: translateY(-57vh);
+    }
+  }
+
+    /* On screens that are 600px or less, set the background color to olive */
+    @media screen and (min-height: 736px) {
+        .largeLogo{
+            -ms-transform: translateY(-52vh);
+            -webkit-transform: translateY(-52vh);
+            -moz-transform: translateY(-52vh);
+            -o-transform: translateY(-52vh);
+            transform: translateY(-52vh);
+        }
+      }
+
+      @media screen and (min-height: 823px) {
+        .largeLogo{
+            -ms-transform: translateY(-48vh);
+            -webkit-transform: translateY(-48vh);
+            -moz-transform: translateY(-48vh);
+            -o-transform: translateY(-48vh);
+            transform: translateY(-48vh);
+        }
+      }
