@@ -39,10 +39,10 @@ body {
 }
 
 .largeLogo{
-    position: absolute;
-    transform: translateY(10vh);
+    position: fixed;
     -ms-transform: translateY(10vh);
     -webkit-transform: translateY(10vh);
+    transform: translateY(10vh);
     margin-bottom: 10px;
     border-radius: 100%;
     width: 16vh;
