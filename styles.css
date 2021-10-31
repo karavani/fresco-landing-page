@@ -39,6 +39,7 @@ body {
 }
 
 .largeLogo{
+    animation: fadeInAnimation ease 3s;
     position: absolute;
     -ms-transform: translateY(70%);
     -webkit-transform: translateY(70%);
@@ -77,4 +78,13 @@ a {
     .smallLogo{
         width: 4rem;
         height: 4rem;
+    }
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+         }
     }
