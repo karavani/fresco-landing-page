@@ -39,7 +39,7 @@ body {
 }
 
 .largeLogo{
-    position: fixed;
+    position: absolute;
     -ms-transform: translateY(70%);
     -webkit-transform: translateY(70%);
     -moz-transform: translateY(70%);
